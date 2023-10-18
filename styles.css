@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dbddff;
+    font-size: 16px;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+}
+
+
+/* Helper class */
+
+
+.flex{
+    display: flex;
+}
+
+
+.pd-60{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.pd-top{
+    padding-top: 80px;
+}
+
+.blue-bg{
+    background-color: #545be8;
+    color: #fff;
+}
+
+/* .center-align{
+    text-align: center;
+} */
+/* Navbar */
+
+.nav{
+    position: fixed;
+    height: 40px;
+    box-shadow: 2px 1px 2px 2px rgb(216, 210, 210);
+    width: 100%;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.logo{
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+}
+
+.logo p{
+    font-size: 0.7rem;
+    color: #545be8
+}
+
+
+
+.nav-items{
+    gap: 20px;
+}
+
+.nav-items li{
+    list-style: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #111;
+    
+}
+
+.nav-buttons button{
+    margin-left: 10px;
+    font-size: 0.6rem;
+    font-weight: 400;
+    padding: 5px 20px;
+    width: 80px;
+    border-radius: 5px;
+  
+}
+
+.nav-buttons .login{
+    color: #545be8;
+    border-color:#545be8;
+}
+
+.nav-buttons .register{
+    border: none;
+}
+
+
+
