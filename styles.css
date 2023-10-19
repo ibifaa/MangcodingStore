@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
     margin: auto;
     background-color: #fff;
     position: relative;
@@ -31,8 +31,16 @@ body{
     padding-right: 60px;
 }
 
+.mg-bottom{
+margin-bottom: 20px;
+}
+
+.pd-bottom{
+    padding-bottom: 40px;
+}
+
 .pd-top{
-    padding-top: 80px;
+    padding-top: 65px;
 }
 
 .blue-bg{
@@ -40,20 +48,31 @@ body{
     color: #fff;
 }
 
-/* .center-align{
-    text-align: center;
-} */
+.yellow-bg{
+    background-color: #f0c932;
+}
+
+
+.blue-txt{
+    color: #545be8;
+}
+
+
+
 /* Navbar */
 
 .nav{
     position: fixed;
-    height: 40px;
+    height: 33px;
     box-shadow: 2px 1px 2px 2px rgb(216, 210, 210);
-    width: 100%;
-    justify-content: space-between;
+    width: 90%;
+    justify-content:space-between;
     color: #ffffff;
     align-items: center;
     font-size: 0.8rem;
+    margin: auto;
+    background-color:#fff
+    
 }
 .logo{
     align-items: center;
@@ -66,14 +85,18 @@ body{
 }
 
 .logo p{
-    font-size: 0.7rem;
-    color: #545be8
+    font-size: 0.4rem;
+    font-family:Roboto;
+    
 }
 
 
 
 .nav-items{
-    gap: 20px;
+    gap: 10px;
+    font-family: Poppins;
+    font-size: 0.45rem;
+    font-weight: 400;
 }
 
 .nav-items li{
@@ -86,24 +109,103 @@ body{
     
 }
 
-.nav-buttons button{
+button {
     margin-left: 10px;
     font-size: 0.6rem;
     font-weight: 400;
     padding: 5px 20px;
-    width: 80px;
+    width: 70.02px;
     border-radius: 5px;
-  
+    font-family: Inter;
+    height: 19.77px;
+    padding:4px 20px 4px 20px;
+    
 }
 
 .nav-buttons .login{
-    color: #545be8;
-    border-color:#545be8;
+    border:1px solid #545be8;
 }
 
 .nav-buttons .register{
     border: none;
 }
 
+/* Hero section */
 
+.hero-section{
+    height: 100vh;
+    background-color: #f5f5f5;
+    /* background-color:#141e32; */
+}
+
+.text-section{
+    width: 50%;
+}
+
+
+.text-section h1 {
+    font-size: 1.5rem;
+    color: #141e32;
+    font-family: 'Poppins';
+    width: 100%;
+}
+
+
+.text-section p{
+    font-family: Inter;
+    font-size: 0.46rem;
+    line-height: 2;
+}
+
+
+.text-section p  span {
+    font-weight: 600;
+}
+
+.content{
+    color: #969696;
+    font-size: 0.46rem;
+}
+
+
+.image-section img{
+    position: relative;
+    height: 220px;
+    width: 220px;
+    right: 50px;
+    right: 0;
+    top: 0;
+}
+
+.polygon{
+    width: 13px;
+    height: 13px;
+    /* margin: 5px; */
+    border-radius: 50%;
+}
+
+.polygon img{
+    width: 5.77px;
+    height: 5.77px;
+    align-items: center;
+    position: relative;
+    top: 3px;
+    left: 4px;
+}
+
+.play{
+    padding: 2px;
+    /* width: 0px; */
+    width: 80px;
+    align-items: center;
+    gap: 5px;
+     border: none;
+}
+
+.herosection-buttons  .register{
+    background-color: #545be8;
+    border: none;
+    color: #fff;
+    text-align: center;
+}
 

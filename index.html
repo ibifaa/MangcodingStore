@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;700&family=Roboto:wght@400;900&display=swap"
+    rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 
 <head>
@@ -15,7 +20,7 @@
 
                 <div class="logo flex center-align">
                     <img src="assets/Logo.svg" alt="">
-                    <p>mangcoding Store</p>
+                    <p class="blue-txt">mangcoding Store</p>
                 </div>
 
                 <ul class="nav-items flex">
@@ -27,7 +32,7 @@
                 </ul>
 
                 <div class="nav-buttons flex">
-                    <button class="login">Log in</button>
+                    <button class="login blue-txt">Log in</button>
                     <button class="register blue-bg">Register</button>
                 </div>
 
@@ -35,24 +40,40 @@
         </header>
 
         <main>
-            <section class="hero-section pd-top pd-60">
+            <section class="hero-section pd-top pd-60 flex pd-bottom ">
                 <div class="text-section">
-                    <p>Let’s Begins</p>
-                    <h1>Let's Find The Right Course For you</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis
-                        molestie.</p>
-                    <div class="herosection-buttons">
-                        <button>
-                            Register
+                    <p class="mg-bottom blue-txt">Let’s <span class="blue-txt mg-bottom">Begin</span> </p>
+                    <h1 class="mg-bottom">Let's Find The Right <span class="blue-txt mg-bottom">Course </span>For you
+                    </h1>
+                    <p class="content blue-txt mg-bottom "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Etiam
+                        dignissim, sem non convallis
+                        molestie.
+                    </p>
+
+                    <div class="herosection-buttons flex">
+
+                        <button class="register">
+                            <strong>Register</strong>
                         </button>
-                        <button>
-                            <div> <img src="assets/Polygon 1.svg" alt=""> </div> Play Video
+
+
+
+                        <button class="play flex">
+                            <div class=" polygon yellow-bg flex">
+                                <img src="assets/Polygon 1.svg" alt="">
+                            </div>
+                            <strong>
+                                Play Video
+                            </strong>
                         </button>
+
+
                     </div>
                 </div>
 
                 <div class="image-section">
-                    <img src="assets/Group 6.png" alt="">
+                    <img src="assets/Group 6 (2).png" alt="">
                 </div>
             </section>
 
