@@ -8,6 +8,7 @@ body{
     background-color: #dbddff;
     font-size: 16px;
     color: black;
+    font-family: Poppins;
 }
 
 .container{
@@ -35,12 +36,19 @@ body{
 margin-bottom: 20px;
 }
 
+.sub-mg-bottom{
+    margin-bottom: 5px;
+    }
+
 .pd-bottom{
     padding-bottom: 40px;
 }
 
 .pd-top{
     padding-top: 65px;
+}
+.section-top-pd{
+    padding: 25px;
 }
 
 .blue-bg{
@@ -57,6 +65,10 @@ margin-bottom: 20px;
     color: #545be8;
 }
 
+.sub-mg-bottom{
+    margin-bottom: 10px;
+}
+
 
 
 /* Navbar */
@@ -71,7 +83,8 @@ margin-bottom: 20px;
     align-items: center;
     font-size: 0.8rem;
     margin: auto;
-    background-color:#fff
+    background-color:#fff;
+    z-index:3;
     
 }
 .logo{
@@ -168,7 +181,7 @@ button {
 }
 
 
-.image-section img{
+.image-section img, .stats-image img{
     position: relative;
     height: 220px;
     width: 220px;
@@ -207,5 +220,119 @@ button {
     border: none;
     color: #fff;
     text-align: center;
+}
+
+/* Statistics Section */
+
+.service-section{
+    height: 65vh;
+    background-color: #fff;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.service-section h1{
+    font-size: 1.02rem;
+    text-align: center;
+    color: 14ie32
+}
+
+.service-section h4{
+    font-size: 0.5rem;
+    text-align: left;
+   
+}
+
+.service-section .icon{
+   background-color: white;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   text-align: center;
+   align-items: center;
+}
+
+.icon img{
+    /* margin: auto;
+    text-align: center; */
+
+}
+
+.service-section p{
+    font-size: 0.35rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.card{
+    height: 110px;
+    width: 110px;    
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-div{
+    justify-content: space-around;
+
+}
+
+.icon-one img{
+    margin-top: 2px;
+}
+
+
+.icon-three img{
+    margin-top: 2px;
+}
+
+/* statistics section */
+.stat-section{
+    height: 85vh;
+    gap: 40px;
+}
+
+.stats-image img{
+    left: 40px;
+    right: 0;
+}
+
+.stat-text{
+    margin-left: 35px;
+   
+}
+
+.stat-section .top{
+    font-size: 0.46rem;
+    color: #f0c932;
+    padding-top: 30px;
+}
+
+.stat-section h3{
+    font-size: 1.02rem;
+    width: 60%;
+
+}
+
+.stat-section p{
+    font-size: 0.46rem;
+    width: 80%;
+}
+
+.views{
+    gap: 20px;
+    font-size: 0.45rem;
+    width: 80%;
+}
+
+.view span{
+    display: block;
+    font-weight: 400;
+}
+
+.views .head{
+    display: block;
+    color: #f0c932;
+    font-weight: 500;
+    font-size: 0.62rem;
 }
 
