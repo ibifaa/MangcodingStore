@@ -151,16 +151,12 @@ button {
     /* background-color:#141e32; */
 }
 
-.text-section{
-    width: 50%;
-}
-
 
 .text-section h1 {
     font-size: 1.5rem;
     color: #141e32;
     font-family: 'Poppins';
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -279,7 +275,11 @@ button {
 .icon-one img{
     margin-top: 2px;
 }
-
+.icon-two img{
+    position: relative;
+    /* top: 0; */
+    bottom: 2px;
+}
 
 .icon-three img{
     margin-top: 2px;
@@ -334,5 +334,61 @@ button {
     color: #f0c932;
     font-weight: 500;
     font-size: 0.62rem;
+}
+
+/* Course Section */
+.courses-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 20px;
+    
+}
+
+.course-img{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card{
+   
+}
+
+.courses-section p{
+    font-size: 0.36rem;
+}
+
+.courses-section .card-one{
+    background-image: url("assets/computer.png");
+   
+}
+
+.courses-section .card-two{
+    background-image: url("assets/photography.png");
+   
+}
+
+.courses-section .card-three{
+
+}
+
+.courses-section .card-four{
+    background-image: url("assets/game.png");
+   
+}
+
+
+.courses-section .card-five{
+    background-image: url("assets/code.png");
+  
+}
+
+.course-img h4{
+    background-color: #545be8;
+    color: #fff;
+    border-radius: 5px 0 5px 0;
+    margin-top: 20px;
+    width: fit-content;
 }
 
