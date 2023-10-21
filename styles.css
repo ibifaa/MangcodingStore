@@ -301,7 +301,7 @@ button {
    
 }
 
-.stat-section .top{
+.stat-section .available-top{
     font-size: 0.46rem;
     color: #f0c932;
     padding-top: 30px;
@@ -339,56 +339,162 @@ button {
 /* Course Section */
 .courses-section{
     display: grid;
+    /* grid-gap: 20px; */
     grid-template-columns: auto auto auto;
     padding-top: 20px;
+    width: 460px;
+    margin: auto;
     
 }
 
-.course-img{
-    width: 200px;
-    height: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
+.course{
+width: 135px;
+height: 110px;
 }
 
-.card{
-   
+.course-img{
+  position: relative;
+  cursor: pointer;
+  color: white;
+  z-index:1;
+  height: 73px;
+  width: 135px;
+  background-size: 135px;
+  background-repeat: no-repeat;
+}
+.course-img::after
+{
+    content: "";
+    position: absolute;
+    background: linear-gradient(0deg, rgba(39,38,42,1) 2%, rgba(255,255,255,0) 20%);
+    z-index:2;
+    height: 73px;
+  width: 135px;
+    top: 0;
+    left: 0;
+}
+
+.course-details h4{
+    font-size: 0.56rem;
+    position:absolute;
+    color: black;
+}
+
+.course-details span{
+    font-size: 0.42rem;
 }
 
 .courses-section p{
     font-size: 0.36rem;
 }
 
-.courses-section .card-one{
-    background-image: url("assets/computer.png");
+
+.available-top{
+    color: #545be8;
+    margin-bottom: 5px;
+}
+
+.available h4{
+    font-size: 0.4;
+    line-height: 1.2;
+}
+
+.available .txt{
+    color: #969696;
+    line-height: 1.5;
+}
+.available button{
+    margin-top: 10px;
+   padding: 0;
+    border: none;
+    background-color: #545be8;
+    color: #fff;
+    margin-left: 0;
+    font-size: 0.35;
+}
+.courses-section .course-one{
+    background-image: url("assets/computer.jpg");
+    
    
 }
 
-.courses-section .card-two{
-    background-image: url("assets/photography.png");
+.courses-section .course-two{
+    background-image: url("assets/photography.jpg");
    
 }
 
-.courses-section .card-three{
 
-}
-
-.courses-section .card-four{
+.courses-section .course-four{
     background-image: url("assets/game.png");
    
 }
 
 
-.courses-section .card-five{
-    background-image: url("assets/code.png");
+.courses-section .course-five{
+    background-image: url("assets/code.jpg");
   
 }
 
-.course-img h4{
+.course-img .best{
     background-color: #545be8;
+    position: relative;
+    top: 15px;
+    width: 55px;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+}
+
+.course-img h4{
     color: #fff;
-    border-radius: 5px 0 5px 0;
-    margin-top: 20px;
-    width: fit-content;
+    font-size: 0.42rem;
+    font-family: Poppins;
+}
+
+.amount{
+    position: relative;
+    top: 45px;
+    left: 90px;
+   
+} 
+
+.amount h5{
+     font-size: 0.56rem;
+     color: #fff;
+     position: absolute;
+     z-index: 99; 
+     /* line 448 is used to make text on the a gradient background to be visible  */
+}
+
+.course-txt{
+    padding-top: 10px;
+    /* width: 135px;
+    height: 33px; */
+    padding-left: 5px;
+    padding-right: 5px;
+  
+}
+.course-details h4{
+font-size: 0.43rem;
+}
+
+.course-details span{
+    font-size: 0.32rem;
+    color: #969696;
+}
+
+.course-info{
+    justify-content: space-between;
+}
+
+.course-info p{
+    color: #545be8;
+}
+
+.view-info{
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #596377;
 }
 
