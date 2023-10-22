@@ -12,10 +12,14 @@ body{
 }
 
 .container{
-    width: 90%;
-    margin: auto;
+    width: 69%;
+    margin: 0 auto 5%;
     background-color: #fff;
     position: relative;
+}
+
+.container p{
+    font-size: 0.43rem;
 }
 
 
@@ -28,8 +32,8 @@ body{
 
 
 .pd-60{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .mg-bottom{
@@ -76,8 +80,8 @@ margin-bottom: 20px;
 .nav{
     position: fixed;
     height: 33px;
-    box-shadow: 2px 1px 2px 2px rgb(216, 210, 210);
-    width: 90%;
+    box-shadow: 1px 1px 2px  rgb(216, 210, 210);
+    width: 69%;
     justify-content:space-between;
     color: #ffffff;
     align-items: center;
@@ -339,7 +343,7 @@ button {
 /* Course Section */
 .courses-section{
     display: grid;
-    /* grid-gap: 20px; */
+    grid-gap: 20px;
     grid-template-columns: auto auto auto;
     padding-top: 20px;
     width: 460px;
@@ -469,10 +473,14 @@ height: 110px;
 
 .course-txt{
     padding-top: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
     /* width: 135px;
     height: 33px; */
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 4px rgb(216, 210, 210);
   
 }
 .course-details h4{
@@ -496,5 +504,119 @@ font-size: 0.43rem;
     margin-right: 10px;
     margin-top: 5px;
     color: #596377;
+}
+
+/* Testimonial section */
+.testimonial-section{
+    height: 114px;
+    width:380px;
+    margin: auto;
+    background-color: red;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    
+    
+}
+
+.testimonial-section h3{
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.top .image-section img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+} 
+
+.testimony angle{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.testimony-one{
+    width: 40%;
+    background-color: green;
+    width: 186;
+    height: 84;
+}
+
+.testimony-two{
+    width: 40%;
+    background-color: green;
+    width: 186;
+    height: 84;
+}
+.title h6{
+    font-size: 0.36rem;
+  
+}
+
+.testimony img{
+    width: 48px;
+    height: 7.6px;
+}
+
+.title p{
+    font-size: 0.28rem;
+    color: #969696;
+    /* margin-top: 5px; */
+}
+
+.testimony .top{
+    gap: 5px;
+}
+
+.text p{
+font-size: 0.36rem;
+}
+
+footer{
+    background-color: #393e46;
+    color: #fff;
+    padding: 20px;
+    width: 456;
+    height: 126;
+    margin-top: 20px;
+
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    gap: 20px;
+}
+
+.footer-logo {
+   align-items: center;
+    gap: 5px;
+}
+
+.footer-left .txt{
+    font-size: 0.28rem;
+    width: 70%;
+    line-height: 1.5;
+    margin: 10px 0;
+
+}
+
+.footer-logo p{
+    font-family: Roboto;
+    font-size: 0.28;
+    gap: 5px;
+}
+
+
+.right h6{
+    font-size: 0.36rem;
+}
+
+.right p{
+    font-size: 0.28rem;
 }
 
