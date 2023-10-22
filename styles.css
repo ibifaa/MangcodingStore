@@ -88,7 +88,7 @@ margin-bottom: 20px;
     font-size: 0.8rem;
     margin: auto;
     background-color:#fff;
-    z-index:3;
+    z-index:8;
     
 }
 .logo{
@@ -360,7 +360,7 @@ height: 110px;
   position: relative;
   cursor: pointer;
   color: white;
-  z-index:1;
+  z-index:7;
   height: 73px;
   width: 135px;
   background-size: 135px;
@@ -371,7 +371,7 @@ height: 110px;
     content: "";
     position: absolute;
     background: linear-gradient(0deg, rgba(39,38,42,1) 2%, rgba(255,255,255,0) 20%);
-    z-index:2;
+    z-index:6;
     height: 73px;
   width: 135px;
     top: 0;
@@ -507,17 +507,22 @@ font-size: 0.43rem;
 }
 
 /* Testimonial section */
+
 .testimonial-section{
-    height: 114px;
+   
     width:380px;
-    margin: auto;
-    background-color: red;
-    margin-top: 20px;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 10px;
-    
-    
+    margin: 20px auto;
+}
+.testimony{
+    width: 50%;
+    height: 84px;
+    position: relative;
+    padding: 0 10px;
+    box-shadow: 1px 1px 4px rgb(216, 210, 210);
+}
+.test-flex{
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .testimonial-section h3{
@@ -525,39 +530,33 @@ font-size: 0.43rem;
     text-align: center;
 }
 
-.top .image-section img{
+.angle{
+    position:relative;
+    /* left: 140px; */
+    top: 0;
+    left: 150px;
+    z-index: 5;
+
+}
+
+.top-test img{
     width: 15px;
     height: 15px;
     border-radius: 50%;
 } 
-
-.testimony angle{
-    position: relative;
-    top: 0;
-    right: 0;
+.picture{
+    gap: 5px;
+    position: absolute;
+    top: 10px;
+    z-index: 4;
+    align-items: center;
+   
 }
 
-.testimony-one{
-    width: 40%;
-    background-color: green;
-    width: 186;
-    height: 84;
-}
 
-.testimony-two{
-    width: 40%;
-    background-color: green;
-    width: 186;
-    height: 84;
-}
 .title h6{
     font-size: 0.36rem;
   
-}
-
-.testimony img{
-    width: 48px;
-    height: 7.6px;
 }
 
 .title p{
@@ -566,11 +565,25 @@ font-size: 0.43rem;
     /* margin-top: 5px; */
 }
 
-.testimony .top{
-    gap: 5px;
+.txt{
+    font-size: 0.36rem;
 }
 
-.text p{
+.star{
+    width: 48px;
+    height: 7.6px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.last-paragraph{
+    font-size: 0.36rem;
+}
+
+
+/* Footer */
+
+.test-footer p{
 font-size: 0.36rem;
 }
 
@@ -590,7 +603,7 @@ footer{
 
 .right{
     gap: 20px;
-}
+} */
 
 .footer-logo {
    align-items: center;
