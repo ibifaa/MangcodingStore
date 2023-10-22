@@ -11,8 +11,8 @@ body{
 }
 
 .padding{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .container{
@@ -84,7 +84,6 @@ margin-bottom: 20px;
     justify-content:space-between;
     color: #ffffff;
     align-items: center;
-    font-size: 1rem;
     margin: auto;
     background-color:#fff;
     z-index:8;
@@ -101,7 +100,7 @@ margin-bottom: 20px;
 }
 
 .logo p{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-family:Roboto;
     line-height: 1.6;
     text-align: center;
@@ -113,7 +112,7 @@ margin-bottom: 20px;
 .nav-items{
     gap: 10px;
     font-family: Poppins;
-    font-size: 0.41rem;
+    font-size: 0.6rem;
     font-weight: 400;
   
 }
@@ -129,7 +128,7 @@ margin-bottom: 20px;
 }
 
 button {
-    font-size: 0.46rem;
+    font-size: 0.6rem;
     font-weight: 400;
     padding: 5.35px 20.18px;
     width: 70.02px;
@@ -140,7 +139,7 @@ button {
 }
 
 .nav-buttons{
-    gap: 4.12px;
+    gap: 5px;
 }
 
 .nav-buttons .login{
@@ -152,7 +151,7 @@ button {
     background-color:#545be8;
     color: #fff;
     border: none;
-    font-size: 0.46rem;
+    font-size: 0.6rem;
 }
 
 /* Hero section */
