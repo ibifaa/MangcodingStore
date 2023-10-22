@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Font";
+    src: url("fonts/inter-variablefont_slntwght-webfont.woff");
+}
 *{
     margin: 0;
     padding: 0;
@@ -32,8 +36,8 @@ body{
 
 
 .pd-60{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .mg-bottom{
@@ -93,18 +97,20 @@ margin-bottom: 20px;
 }
 .logo{
     align-items: center;
-    gap: 5px;
+    /* gap: 3px; */
 }
 
 .logo img{
-    width: 25px;
-    height: 25px;
+    width: 14.52px;
+    height: 13.98px;
 }
 
 .logo p{
-    font-size: 0.4rem;
+    font-size: 0.36rem;
     font-family:Roboto;
-    
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 700;
 }
 
 
@@ -112,8 +118,9 @@ margin-bottom: 20px;
 .nav-items{
     gap: 10px;
     font-family: Poppins;
-    font-size: 0.45rem;
+    font-size: 0.41rem;
     font-weight: 400;
+  
 }
 
 .nav-items li{
@@ -127,24 +134,30 @@ margin-bottom: 20px;
 }
 
 button {
-    margin-left: 10px;
-    font-size: 0.6rem;
+    font-size: 0.46rem;
     font-weight: 400;
-    padding: 5px 20px;
+    padding: 5.35px 20.18px;
     width: 70.02px;
-    border-radius: 5px;
+    border-radius: 4.12px;
     font-family: Inter;
-    height: 19.77px;
+    height: 19.71px;
     padding:4px 20px 4px 20px;
-    
+}
+
+.nav-buttons{
+    gap: 4.12px;
 }
 
 .nav-buttons .login{
-    border:1px solid #545be8;
+    border:0.41px solid #545be8;
+    gap: 4.12px;
 }
 
 .nav-buttons .register{
+    background-color:#545be8;
+    color: #fff;
     border: none;
+    
 }
 
 /* Hero section */
@@ -213,6 +226,7 @@ button {
     align-items: center;
     gap: 5px;
      border: none;
+     margin-left: 10px;
 }
 
 .herosection-buttons  .register{
@@ -220,6 +234,7 @@ button {
     border: none;
     color: #fff;
     text-align: center;
+    font-size: 0.46rem;
 }
 
 /* Statistics Section */
@@ -234,7 +249,7 @@ button {
 .service-section h1{
     font-size: 1.02rem;
     text-align: center;
-    color: 14ie32
+    color: #141e32;
 }
 
 .service-section h4{
@@ -273,6 +288,7 @@ button {
 
 .card-div{
     justify-content: space-around;
+    gap: 15px;
 
 }
 
@@ -291,21 +307,23 @@ button {
 
 /* statistics section */
 .stat-section{
-    height: 85vh;
+    height: 70vh;
     gap: 40px;
 }
 
 .stats-image img{
-    left: 40px;
+    height: 200px;
+    width: 200px;
+    left: 30px;
     right: 0;
 }
 
 .stat-text{
-    margin-left: 35px;
+    margin-left: 30px;
    
 }
 
-.stat-section .available-top{
+.stat-text .selected-course{
     font-size: 0.46rem;
     color: #f0c932;
     padding-top: 30px;
@@ -313,7 +331,7 @@ button {
 
 .stat-section h3{
     font-size: 1.02rem;
-    width: 60%;
+    width: 70%;
 
 }
 
@@ -401,11 +419,14 @@ height: 110px;
 .available h4{
     font-size: 0.4;
     line-height: 1.2;
+    width: 50%;
+    font-family: Poppins;
 }
 
 .available .txt{
     color: #969696;
     line-height: 1.5;
+    width: 70%;
 }
 .available button{
     margin-top: 10px;
