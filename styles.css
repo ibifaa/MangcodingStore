@@ -15,6 +15,10 @@ body{
     padding-right: 8%;
 }
 
+.padding-top{
+    padding-top: 10%;
+}
+
 .container{
     width: 90%;
     margin: 0 auto 5%;
@@ -173,18 +177,18 @@ button {
 
 
 .text-section h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #141e32;
     font-family: 'Poppins';
-    width: 70%;
+    /* width: 90%; */
 }
 
 
 .text-section p{
     font-family: Inter;
-    font-size: 0.46rem;
+    font-size: 0.6rem;
     line-height: 2;
-    width: 60%;
+    /* width: 60%; */
 }
 
 
@@ -194,7 +198,7 @@ button {
 
 .content{
     color: #969696;
-    font-size: 0.46rem;
+    font-size: 0.6rem;
 }
 
 
