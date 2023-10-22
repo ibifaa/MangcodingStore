@@ -6,9 +6,13 @@
 
 body{
     background-color: #dbddff;
-    font-size: 16px;
     color: black;
     font-family: Poppins;
+}
+
+.padding{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .container{
@@ -30,11 +34,6 @@ body{
     display: flex;
 }
 
-
-.pd-60{
-    padding-left: 40px;
-    padding-right: 40px;
-}
 
 .mg-bottom{
 margin-bottom: 20px;
@@ -85,7 +84,7 @@ margin-bottom: 20px;
     justify-content:space-between;
     color: #ffffff;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: auto;
     background-color:#fff;
     z-index:8;
@@ -93,16 +92,16 @@ margin-bottom: 20px;
 }
 .logo{
     align-items: center;
-    /* gap: 3px; */
+    gap: 5px;
 }
 
 .logo img{
-    width: 14.52px;
-    height: 13.98px;
+    width: 20px;
+    height: 20px;
 }
 
 .logo p{
-    font-size: 0.36rem;
+    font-size: 0.5rem;
     font-family:Roboto;
     line-height: 1.6;
     text-align: center;
