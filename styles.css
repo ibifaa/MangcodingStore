@@ -538,6 +538,7 @@ font-size: 0.43rem;
     padding: 0 10px;
     box-shadow: 1px 1px 4px rgb(216, 210, 210);
     margin: auto;
+    height: 100px;
 }
 .test-flex{
     gap: 10px;
@@ -550,17 +551,17 @@ font-size: 0.43rem;
 }
 
 .angle{
-    position:relative;
+    position:absolute;
     /* left: 140px; */
     top: 0;
-    left: 236px;
+    right: 0;
     z-index: 5;
 
 }
 
 .top-test img{
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 } 
 .picture{
@@ -573,13 +574,13 @@ font-size: 0.43rem;
 
 
 .title h6{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
 }
 
 .title p{
-    font-size: 0.35rem;
+    font-size: 0.4rem;
     color: #969696;
-    /* margin-top: 5px; */
+    /* margin-top: 20px; */
 }
 
 .txt{
@@ -590,6 +591,8 @@ font-size: 0.43rem;
     width: 48px;
     height: 7.6px;
     display: block;
+    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
