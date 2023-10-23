@@ -174,11 +174,11 @@ button {
 
 
 .text-section h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 1.4;
     color: #141e32;
     font-family: 'Poppins';
-    width: 76%;
+    width: 100%;
 }
 
 
@@ -304,7 +304,7 @@ button {
 .stat-section{
     width: 100%;
     gap: 40px;
-    height: 350px;
+    height: 300px;
 }
 .stat-left{
     width: 50%;
@@ -655,5 +655,122 @@ footer{
 .right p{
     line-height: 2;
     font-size: 0.4rem;
+}
+
+@media screen and (max-width:600px) {
+    .hero-section{
+        /* display: block; */
+        height: fit-content;
+    }
+
+     .hero-top {
+        width: 100%;
+    }
+
+    .text-section h1{
+        font-size: 1.5rem;
+        line-height: 1.5;
+        width: 70%;
+    }
+
+    .padding-top{
+        padding-top: 10%;
+    }
+    
+    .container{
+        width: 90%;
+        margin: 0 auto 5%;
+        background-color: #fff;
+        position: relative;
+    }
+    
+    .container p{
+        font-size: 0.7rem;
+    }
+    
+.content{
+    font-size: 1rem;
+}
+
+    .herosection-buttons {
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .card-div{
+       align-items: left;
+       text-align: left;
+    }
+    .card p{
+        font-size: 0.4rem;
+    }
+    
+    .image-section{
+        width: 100%;
+       
+    }
+
+    .service-section h1{
+        font-size: 0.9rem;
+        text-align: center;
+        color: #141e32;
+    }
+
+    .service-section {
+        height: 250px;
+        padding-top: 20px;
+    }
+
+    .stats-image img{
+        top: 30px;
+        left: 5px;
+        width: 100%;
+    }
+    .service-section p{
+        font-size: 0.3rem;
+        text-align: left;
+        line-height: 1.5;
+    }
+
+    .stat-text{
+        margin-left: 10px;
+       
+    }
+
+    .stat-section h3{
+        width: 100%;
+    }
+
+    .stat-section p{
+        width: 100%;
+    }
+
+
+
+.footer-left .txt{
+    font-size: 0.4rem;
+    width: 70%;
+    line-height: 1.5;
+    margin: 10px 0;
+
+}
+
+.footer-logo p{
+    font-family: Roboto;
+    font-size: 0.5;
+    gap: 5px;
+}
+
+
+.right h6{
+    font-size: 0.4rem;
+   line-height: 2;
+}
+
+.right p{
+    line-height: 2;
+    font-size: 0.3rem;
+}
 }
 
