@@ -103,7 +103,7 @@ margin-bottom: 20px;
 }
 
 .logo p{
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-family:Roboto;
     line-height: 1.6;
     text-align: center;
@@ -113,7 +113,7 @@ margin-bottom: 20px;
 .nav-items{
     gap: 10px;
     font-family: Poppins;
-    font-size: 0.6rem;
+    font-size: 0.55rem;
     font-weight: 400;
   
 }
@@ -502,11 +502,11 @@ button {
   
 }
 .course-details h4{
-font-size: 0.43rem;
+font-size: 0.5rem;
 }
 
 .course-details span{
-    font-size: 0.32rem;
+    font-size: 0.45rem;
     color: #969696;
 }
 
