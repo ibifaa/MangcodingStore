@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 100%;
     margin: 0 auto 5%;
     background-color: #fff;
     position: relative;
@@ -84,7 +84,7 @@ margin-bottom: 20px;
     position: fixed;
     height: 33px;
     box-shadow: 1px 1px 2px  rgb(216, 210, 210);
-    width: 90%;
+    width: 100%;
     justify-content:space-between;
     color: #ffffff;
     align-items: center;
@@ -93,7 +93,6 @@ margin-bottom: 20px;
     z-index:8;
 }
 .logo{
-    align-items: center;
     gap: 5px;
 }
 
