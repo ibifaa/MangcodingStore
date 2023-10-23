@@ -96,6 +96,7 @@ margin-bottom: 20px;
 }
 .logo{
     gap: 5px;
+    align-items: center;
 }
 
 .logo img{
@@ -256,7 +257,7 @@ button {
 }
 
 .service-section h4{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     text-align: left;
 }
 
@@ -270,15 +271,15 @@ button {
 }
 
 .service-section p{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     text-align: left;
     line-height: 1.5;
 }
 
 .card{
-    height: 110px;
-    width: 110px;    
-    padding: 10px;
+    /* height: 110px;
+    width: 110px;     */
+    padding: 15px;
     border-radius: 10px;
 }
 
@@ -339,8 +340,9 @@ button {
 }
 
 .stat-section p{
-    font-size: 0.5rem;
-    width: 80%;
+    font-size: 0.65rem;
+    width: 85%;
+    line-height: 2;
 }
 
 .views{
@@ -546,7 +548,7 @@ font-size: 0.5rem;
 }
 
 .testimonial-section h3{
-    font-size: 0.75rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -578,7 +580,7 @@ font-size: 0.5rem;
 }
 
 .title p{
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     color: #969696;
     /* margin-top: 20px; */
 }
@@ -605,9 +607,7 @@ font-size: 0.5rem;
 
 /* Footer */
 
-.test-footer p{
-font-size: 0.5rem;
-}
+
 
 footer{
     background-color: #393e46;
