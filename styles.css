@@ -91,6 +91,8 @@ margin-bottom: 20px;
     margin: auto;
     background-color:#fff;
     z-index:8;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .logo{
     gap: 5px;
