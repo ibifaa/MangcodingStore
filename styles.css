@@ -635,7 +635,7 @@ footer{
     width: 90%;
     line-height: 1.5;
     margin: 10px 0;
-    font-family: Poppins;
+    font-family: 'Poppins';
 
 }
 
@@ -653,8 +653,8 @@ footer{
 
 .right li{
     list-style: none;
-    font-size: 0.6rem;
-    font-weight: 400;
+    font-size: 0.55rem;
+    /* font-weight: 400; */
     margin-bottom: 1px;
 
 }
