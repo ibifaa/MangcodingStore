@@ -135,7 +135,7 @@ button {
     border-radius: 4.12px;
     font-family: Inter;
     height: 19.71px;
-    padding:4px 20px 4px 20px;
+    padding:8px 20px 8px 20px;
 }
 
 .nav-buttons{
@@ -629,7 +629,7 @@ footer{
 }
 
 .footer-left .txt{
-    font-size: 0.4rem;
+    font-size: 0.65rem;
     width: 70%;
     line-height: 1.5;
     margin: 10px 0;
@@ -650,7 +650,7 @@ footer{
 
 .right p{
     line-height: 2;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
 }
 
 /* @media screen and (max-width:600px) {
