@@ -414,16 +414,17 @@ button {
 }
 
 .available h4{
-    font-size: 0.6;
-    line-height: 1.2;
+    font-size: 1rem;
+    line-height: 1.3;
     width: 50%;
     font-family: Poppins;
 }
 
 .available .txt{
     color: #969696;
-    line-height: 1.5;
-    width: 70%;
+    line-height: 1.4;
+    font-size: 0.49rem;
+    width: 90%;
 }
 .available button{
     margin-top: 10px;
