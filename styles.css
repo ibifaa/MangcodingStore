@@ -91,7 +91,6 @@ margin-bottom: 20px;
     margin: auto;
     background-color:#fff;
     z-index:8;
-    
 }
 .logo{
     align-items: center;
@@ -110,8 +109,6 @@ margin-bottom: 20px;
     text-align: center;
     font-weight: 700;
 }
-
-
 
 .nav-items{
     gap: 10px;
@@ -188,7 +185,6 @@ button {
     font-family: Inter;
     font-size: 0.6rem;
     line-height: 2;
-    /* width: 60%; */
 }
 
 
@@ -204,7 +200,7 @@ button {
 
 .image-section img, .stats-image img{
     position: relative;
-    width: 100%;
+    width: 90%;
     left: 0;
     top: 0;
 }
@@ -260,7 +256,6 @@ button {
 .service-section h4{
     font-size: 0.5rem;
     text-align: left;
-   
 }
 
 .service-section .icon{
@@ -271,8 +266,6 @@ button {
    text-align: center;
    align-items: center;
 }
-
-
 
 .service-section p{
     font-size: 0.4rem;
@@ -310,6 +303,7 @@ button {
 .stat-section{
     width: 100%;
     gap: 40px;
+    height: 300px;
 }
 .stat-left{
     width: 50%;
@@ -321,7 +315,7 @@ button {
 
 
 .stats-image img{
-    width: 100%;
+    width: 90%;
     left: 30px;
     right: 0;
 }
@@ -371,14 +365,10 @@ button {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
-    padding: 5% 7%;
+    padding-top: 5%;
     width: 100%;
 }
 
-.course{
-width: 135px;
-height: 110px;
-}
 
 .course-img{
   position: relative;
@@ -578,13 +568,11 @@ font-size: 0.43rem;
     top: 10px;
     z-index: 4;
     align-items: center;
-   
 }
 
 
 .title h6{
     font-size: 0.4rem;
-  
 }
 
 .title p{
@@ -623,7 +611,6 @@ footer{
     padding: 20px;
     width: 100%;
     margin-top: 20px;
-
 }
 
 .left{
@@ -632,11 +619,10 @@ footer{
 
 .right{
     gap: 20px;
-} */
+} 
 
-.footer-logo {
+.footer-logo-section {
    align-items: center;
-   justify-content: center;
     gap: 5px;
 }
 
@@ -663,6 +649,5 @@ footer{
 .right p{
     line-height: 2;
     font-size: 0.4rem;
-   
-} 
+}
 
