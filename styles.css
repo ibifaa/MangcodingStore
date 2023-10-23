@@ -423,8 +423,8 @@ button {
 .available .txt{
     color: #969696;
     line-height: 1.4;
-    font-size: 0.49rem;
-    width: 90%;
+    font-size: 0.6rem;
+    width: 80%;
 }
 .available button{
     margin-top: 10px;
