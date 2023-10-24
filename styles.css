@@ -5,31 +5,25 @@
 }
 
 body{
-    background-color: #dbddff;
+    background-color: #fff;
     color: black;
     font-family: Poppins;
 }
 
 .padding{
-    padding-left: 8%;
-    padding-right: 8%;
+   padding: 8% 8%;
 }
 
-.padding-top{
-    padding-top: 7%;
+p{
+    font-size: 1rem;
 }
 
 .container{
-    width: 100%;
     margin: 0 auto;
     background-color: #fff;
     position: relative;
+    width: 100%;
 }
-
-.container p{
-    font-size: 0.43rem;
-}
-
 
 /* Helper class */
 
@@ -148,6 +142,7 @@ button {
 .nav-buttons .login{
     border:0.41px solid #545be8;
     gap: 4.12px;
+    background-color: transparent;
 }
 
 .nav-buttons .register{
@@ -162,15 +157,17 @@ button {
 .hero-section{
     width: 100%;
     background-color: #f5f5f5;
-    position: relative;
-    height: 100vh;
+    flex-direction:row;
 }
+
 .hero-top{
     width: 50%;
+    align-items: flex-start;
 }
 
 .hero-bottom{
     width: 50%;
+    align-items: flex-end;
 
 }
 
@@ -202,10 +199,9 @@ button {
 
 
 .image-section img{
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: 0;
+   align-items: flex-end;
+   height: 300px;
+   width: 306px;
 }
 
 .polygon{
@@ -241,12 +237,13 @@ button {
     text-align: center;
 }
 
-/* Statistics Section */
+/* services Section */
 
 .service-section{
    width: 100%;
-    background-color: #fff;
-   padding: 5% 20%;
+   background-color: #fff;
+   padding: 8% 20%;
+   
 }
 
 
@@ -304,8 +301,11 @@ button {
 
 /* statistics section */
 .stat-section{
+    color: #fff;
     width: 100%;
-    gap: 40px;
+    gap: 70px;
+    background-image: linear-gradient(to bottom, #545ae8 20%, #272bd0 80%);
+
 }
 .stat-left{
     width: 50%;
@@ -317,38 +317,32 @@ button {
 
 
 .stats-image img{
-    position: relative;
-    width: 90%;
-    left: 30px;
-    top: 0;
+    width: 100%;
 }
 
-.stat-text{
-    margin-left: 30px;
-}
 
 .stat-text .selected-course{
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: #f0c932;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .stat-section h3{
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 90%;
 
 }
 
 .stat-section p{
-    font-size: 0.65rem;
-    width: 85%;
+    font-size: 0.7rem;
+    width: 80%;
     line-height: 2;
 }
 
 .views{
-    gap: 20px;
+    gap: 20%;
     font-size: 0.5rem;
-    width: 90%;
+    width: 100%;
 }
 
 .view span{
@@ -364,34 +358,35 @@ button {
 }
 
 /* Course Section */
+
 .courses-section{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
-    padding-top: 5%;
+    padding-top: 2% 7%;
     width: 100%;
-}
 
+}
 
 .course-img{
   position: relative;
   cursor: pointer;
   color: white;
   z-index:7;
-  height: 73px;
+  height: 80%;
   width: 135px;
-  background-size: 135px;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .course-img::after
 {
     content: "";
     position: absolute;
-    background: linear-gradient(0deg, rgba(39,38,42,1) 2%, rgba(255,255,255,0) 20%);
+    background-image: linear-gradient(0deg, rgba(39,38,42,1) 2%, rgba(255,255,255,0) 25%);
     z-index:6;
     height: 73px;
-  width: 135px;
-    top: 0;
+    width: 135px;
+    top: 34%;
     left: 0;
 }
 
@@ -438,25 +433,23 @@ button {
 }
 .courses-section .course-one{
     background-image: url("assets/computer.jpg");
-    
-   
 }
 
 .courses-section .course-two{
     background-image: url("assets/photography.jpg");
-   
 }
 
 
 .courses-section .course-four{
     background-image: url("assets/game.png");
-   
 }
 
 
 .courses-section .course-five{
     background-image: url("assets/code.jpg");
-  
+}
+.course{
+    height: 142px;
 }
 
 .course-img .best{
@@ -478,10 +471,9 @@ button {
 
 .amount{
     position: relative;
-    top: 45px;
+    top: 76%;
     left: 90px;
-   
-} 
+}
 
 .amount h5{
      font-size: 0.56rem;
@@ -495,13 +487,10 @@ button {
     padding-top: 10px;
     background-color: #fff;
     margin-bottom: 20px;
-    /* width: 135px;
-    height: 33px; */
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     box-shadow: 1px 1px 4px rgb(216, 210, 210);
-  
 }
 .course-details h4{
 font-size: 0.5rem;
@@ -531,16 +520,17 @@ font-size: 0.5rem;
 .testimonial-section{
    
    width: 100%;
-    margin: 20px auto;
+    margin: 10px auto;
+    padding:2%  7%;
+    
 }
 .testimony{
     width: 50%;
-    /* height: 84px; */
     position: relative;
-    padding: 0 10px;
     box-shadow: 1px 1px 4px rgb(216, 210, 210);
     margin: auto;
-    height: 100px;
+    /* height: 100px; */
+    
 }
 .test-flex{
     gap: 10px;
@@ -585,9 +575,9 @@ font-size: 0.5rem;
     /* margin-top: 20px; */
 }
 
-.txt{
-    font-size: 1.5rem;
-}
+/* .txt{
+    font-size: 2rem;
+} */
 
 .star{
     width: 48px;
@@ -599,9 +589,9 @@ font-size: 0.5rem;
 }
 
 .test-footer .last-paragraph{
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 
@@ -612,9 +602,9 @@ font-size: 0.5rem;
 footer{
     background-color: #393e46;
     color: #fff;
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .left{
@@ -623,6 +613,7 @@ footer{
 
 .right{
     gap: 20px;
+    justify-content: space-evenly;
 } 
 
 .footer-logo-section {
@@ -641,7 +632,7 @@ footer{
 
 .footer-logo p{
     font-family: Roboto;
-    font-size: 0.5;
+    font-size: 0.39;
     gap: 5px;
 }
 
