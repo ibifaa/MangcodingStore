@@ -363,7 +363,7 @@ button {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto auto;
-    padding-top: 2% 7%;
+    padding: 5% 8%;
     width: 100%;
 
 }
@@ -521,7 +521,7 @@ font-size: 0.5rem;
    
    width: 100%;
     margin: 10px auto;
-    padding:2%  7%;
+    padding:1%  7%;
     
 }
 .testimony{
@@ -530,6 +530,7 @@ font-size: 0.5rem;
     box-shadow: 1px 1px 4px rgb(216, 210, 210);
     margin: auto;
     /* height: 100px; */
+    padding: 10px;
     
 }
 .test-flex{
@@ -538,7 +539,7 @@ font-size: 0.5rem;
 }
 
 .testimonial-section h3{
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -589,9 +590,10 @@ font-size: 0.5rem;
 }
 
 .test-footer .last-paragraph{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     line-height: 1.5;
     margin-bottom: 0px;
+    
 }
 
 
@@ -608,7 +610,7 @@ footer{
 }
 
 .left{
-    width: 50%;
+    width: 45%;
 }
 
 .right{
@@ -622,7 +624,7 @@ footer{
 }
 
 .footer-left .txt{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     width: 90%;
     line-height: 1.5;
     margin: 10px 0;
