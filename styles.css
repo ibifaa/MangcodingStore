@@ -222,12 +222,12 @@ button {
 
 .play{
     padding: 2px;
-    /* width: 0px; */
     width: 80px;
     align-items: center;
     gap: 5px;
      border: none;
      margin-left: 10px;
+     background-color: transparent;
 }
 
 .herosection-buttons  .register{
