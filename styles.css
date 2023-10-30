@@ -131,7 +131,7 @@ margin-bottom: 20px;
     }
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px){
     .nav-items{
         font-size: 0.4rem;
     }
@@ -159,7 +159,7 @@ button {
     padding:6px 20px 6px 20px;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px){
     button {
         font-size: 0.5rem;
         padding:4px 15px;
@@ -238,7 +238,7 @@ button {
     width: 100%;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px){
    
     
 .text-section h1 {
@@ -272,7 +272,7 @@ button {
    width: 306px;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px){
    
 .image-section img{
     height: 250px;
@@ -324,7 +324,7 @@ button {
    
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px) {
     .service-section{
         padding: 7% 10%;
         
@@ -452,7 +452,7 @@ button {
 
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px){
     .stat-section h3{
         font-size: 1.5rem;
     }
@@ -850,7 +850,7 @@ footer{
 
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (min-width:1022px) and (max-width:1339px){
     .right li{
         font-size: 0.4rem;
     
